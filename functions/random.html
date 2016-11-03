@@ -1,0 +1,19 @@
+
+<!DOCTYPE html>
+<head>
+    <title>random</title>
+    <script type="text/javascript">
+        function redirect(){
+            var urls = [
+ "https://lonelylty.github.io/articles/2016/11/01/football/",
+ "https://lonelylty.github.io/articles/2016/10/31/markdown/",
+
+        ""];
+
+        var index = Math.floor(Math.random() * (urls.length-1));
+        window.location = urls[index];
+    }
+</script>
+<body onload="redirect()">
+</body>
+</html>
