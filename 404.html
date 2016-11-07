@@ -1,0 +1,34 @@
+---
+permalink: /404.html
+---
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>醍醐灌顶</title>
+    <link rel="shortcut Icon" href="/favicon.ico" />
+
+</head>
+<body>
+    <div style="margin:0,auto"><h1>你请求的页面不存在,页面将在<span id="sec" style="color:red"></span>秒钟跳转</h1></div>
+
+    <script type="text/javascript">
+        var secs = 6; //6为倒计时秒数
+        for (i = 0; i <= secs; i++) {
+            window.setTimeout("update(" + i + ")", i * 1000);
+        }
+
+        function update(num) {
+            if (num == secs) {
+                location.replace("/index.html");
+            }
+            else {
+                printnr = secs - num;
+                document.getElementById('sec').innerHTML = printnr;
+            }
+        }
+    </script>
+</body>
+
+</html>
