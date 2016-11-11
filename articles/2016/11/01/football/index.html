@@ -153,8 +153,8 @@
     <div class="sidebarbg">
       <h4>Tags</h4>
         <ul class="blank">
-          <li class="tag-[<pelican.contents.Article object at 0x02FEDAF0>]"><a href="http://blog.lonelylty.com/tag/markdown.html">markdown</a></li>
-          <li class="tag-[<pelican.contents.Article object at 0x039F4CD0>]"><a href="http://blog.lonelylty.com/tag/sport.html">sport</a></li>
+          <li class="tag-[<pelican.contents.Article object at 0x0292DAF0>]"><a href="http://blog.lonelylty.com/tag/markdown.html">markdown</a></li>
+          <li class="tag-[<pelican.contents.Article object at 0x03334C50>]"><a href="http://blog.lonelylty.com/tag/sport.html">sport</a></li>
         </ul>
     </div>
 
@@ -236,7 +236,7 @@
         $("html, body").animate({ scrollTop: 0 }, 120);
     }), $backToTopFun = function() {
       var st = $(document).scrollTop(), winh = $(window).height();
-      (st > 0)? $backToTopEle.show(): $backToTopEle.hide();
+      (st > 1200)? $backToTopEle.show(): $backToTopEle.hide();
       //IE6下的定位
       if (!window.XMLHttpRequest) {
         $backToTopEle.css("top", st + winh - 166);
