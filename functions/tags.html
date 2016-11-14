@@ -14,7 +14,6 @@
         <link rel="stylesheet" type="text/css" href="http://blog.lonelylty.com/theme/style.css" />
         <link rel="stylesheet" type="text/css" href="http://blog.lonelylty.com/theme/pygment.css" />
         <style type="text/css">
-        a {word-wrap:break-word;}
         .social a[href*='facebook.com']:before {content: url('http://blog.lonelylty.com/images/facebook.png'); margin-right: 2px; vertical-align: -3px;}
         .social a[href*='github.com']:before {content: url('http://blog.lonelylty.com/images/github.png'); margin-right: 2px; vertical-align: -3px;}
         .social a[href*='stackoverflow.com']:before {content: url('http://blog.lonelylty.com/images/stackoverflow.png'); margin-right: 2px; vertical-align: -3px;}
@@ -121,7 +120,7 @@
     <script src="http://blog.lonelylty.com/theme/js/plugins.js"></script>
     <script>
     (function() {
-    var $backToTopTxt = "返回顶部", $backToTopEle = $('<div class="backToTop"></div>').appendTo($("body"))
+    var $backToTopTxt = "∧", $backToTopEle = $('<div class="backToTop"></div>').appendTo($("body"))
       .text($backToTopTxt).attr("title", $backToTopTxt).click(function() {
         $("html, body").animate({ scrollTop: 0 }, 120);
     }), $backToTopFun = function() {
@@ -147,21 +146,6 @@
             local = remote_ip_info['city'];
         }
         document.title = local + " " + document.title;
-    </script>
-
-    <!-- <embed src="http://rm.sina.com.cn/wm/VZ200705101138395899VK/music/p17_42.mp3" hidden="true" autostart="true" loop="true" /> -->
-
-    <div class="ui-mask" id="mask" onslectstart="return false"></div>
-    <script>
-        window.tctipConfig = {
-            staticPrefix: "http://static.tctip.com",
-            buttonImageId: 5,
-            buttonTip: "dashang",
-            list: {
-                alipay: { qrimg: "http://blog.lonelylty.com/images/alipay.png" },
-                weixin: { qrimg: "http://blog.lonelylty.com/images/weixin.png" }
-            }
-        };
     </script>
     <script src="http://static.tctip.com/js/tctip.min.js"></script>
     <script type="text/javascript" src="http://v3.jiathis.com/code/jia.js" charset="utf-8"></script>
