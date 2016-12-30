@@ -2,24 +2,24 @@
 <html lang="zh">
 <head>
 
-        <title>醍醐灌顶</title>
-        <meta charset="utf-8" />
-        <link href="http://blog.lonelylty.com/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="醍醐灌顶 Full Atom Feed" />
+    <title>醍醐灌顶</title>
+    <meta charset="utf-8" />
+    <link href="http://blog.lonelylty.com/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="醍醐灌顶 Full Atom Feed" />
 
 
-        <!-- Mobile viewport optimized: j.mp/bplateviewport -->
-        <meta name="viewport" content="width=device-width,initial-scale=1, maximum-scale=1">
-
-        <link rel="stylesheet" type="text/css" href="http://blog.lonelylty.com/theme/gumby.css" />
-        <link rel="stylesheet" type="text/css" href="http://blog.lonelylty.com/theme/style.css" />
-        <link rel="stylesheet" type="text/css" href="http://blog.lonelylty.com/theme/pygment.css" />
-        <style type="text/css">
-        .social a[href*='facebook.com']:before {content: url('http://blog.lonelylty.com/images/facebook.png'); margin-right: 2px; vertical-align: -3px;}
-        .social a[href*='github.com']:before {content: url('http://blog.lonelylty.com/images/github.png'); margin-right: 2px; vertical-align: -3px;}
-        .social a[href*='stackoverflow.com']:before {content: url('http://blog.lonelylty.com/images/stackoverflow.png'); margin-right: 2px; vertical-align: -3px;}
-        </style>
-        
-
+    <!-- Mobile viewport optimized: j.mp/bplateviewport -->
+    <meta name="viewport" content="width=device-width,initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" type="text/css" href="http://blog.lonelylty.com/theme/tipuesearch.css">
+    <link rel="stylesheet" type="text/css" href="http://blog.lonelylty.com/theme/gumby.css" />
+    <link rel="stylesheet" type="text/css" href="http://blog.lonelylty.com/theme/style.css" />
+    <link rel="stylesheet" type="text/css" href="http://blog.lonelylty.com/theme/pygment.css" />
+    <style type="text/css">
+    .social a[href*='lonelylty.com']:before {content: url('http://blog.lonelylty.com/images/rss.png'); margin-right: 2px; vertical-align: -3px;}
+    .social a[href*='facebook.com']:before {content: url('http://blog.lonelylty.com/images/facebook.png'); margin-right: 2px; vertical-align: -3px;}
+    .social a[href*='github.com']:before {content: url('http://blog.lonelylty.com/images/github.png'); margin-right: 2px; vertical-align: -3px;}
+    .social a[href*='stackoverflow.com']:before {content: url('http://blog.lonelylty.com/images/stackoverflow.png'); margin-right: 2px; vertical-align: -3px;}
+    </style>
+    
 </head>
 
 <body id="index" class="home">
@@ -28,6 +28,8 @@
     <a target="_blank" href="https://github.com/lonelylty">
       <img width="149px" height="149px" style="position: absolute; top: 0px; right: 0; border: 0;" src="http://blog.lonelylty.com/images/redforkme.png" alt="Fork me on GitHub" />
     </a>
+
+    <div id="particles-js" style="z-index:-1;position:fixed;width:100%;height:100%"></div>
 
     <div class="container">
 
@@ -45,13 +47,18 @@
                 <li><a href="http://blog.lonelylty.com/category/coding.html">Coding</a></li>
                 <li><a href="http://blog.lonelylty.com/category/living.html">Living</a></li>
                 <li><a href="/functions/archives.html">Archives</a></li>
-                <li><a href="/functions/random.html">Random Article</a></li>  
-                <!--                     <li><a href="/functions/categories.html">Categories</a></li>
+                <li><a href="/functions/random.html">Random Article</a></li>
+                <li>
+                <form action="/functions/search.html" style="padding:0 20px;">
+                <input type="text" class="tipue_search_input" placeholder="Search" name="q" id="s">
+                </form>
+                </li> 
+                <!--##                     <li><a href="/functions/categories.html">Categories</a></li>
                     <li><a href="/functions/tags.html">Tags</a></li>
                     <li><a href="/functions/archives.html">Archives</a></li>
                     <li><a href="/functions/random.html">Random Article</a></li>
- -->
-
+                    <li><a href="/functions/search.html">Search</a></li>
+ ##-->
               </ul>
             </div>
 
@@ -70,92 +77,106 @@
     </div><!-- /.container -->
 
 
-     <div class="container.nopad bg">
+    <div class="container.nopad bg">
 
-
-      <footer id="credits" class="row">
-        <div class="seven columns left-center">
-           <img alt="Welcome" height="77px" width="103px" src="http://blog.lonelylty.com/images/mule.jpg">
-           <address id="about" class="vcard body" style="margin-left:130px;margin-top:-90px">
-            博主目前从事全栈开发，不喜欢重复造轮子，码得了代码，调得了BUG.<br/>
-            Email:<a href="mailto:lonelylty@gmail.com">lonelylty@gmail.com</a> 欢迎添加友链~.<br/>
-            本博客使用Pelican+GitHub Pages搭建，详细请
-            <a href="http://www.xycoding.com/articles/2013/11/21/blog-create/" class="active" target="_blank">参考教程</a>.
-            <!-- Proudly powered by <a href="http://getpelican.com/">Pelican</a>,
-            which takes great advantage of <a href="http://python.org">Python</a>.
-            <br />
-            Based on the <a target="_blank" href="http://gumbyframework.com">Gumby Framework</a> -->
-            </address>
-        </div>
-
-        <div class="seven columns">
-          <div class="row">
-            <ul class="socbtns">
-
-              <li><div class="btn primary"><a href="https://github.com/lonelylty" target="_blank">Github</a></div></li>
-
-
-              <li><div class="btn facebook"><a href="https://www.facebook.com/profile.php?id=100013355288029" target="_blank">Facebook</a></div></li>
-
-              <li><div class="btn danger"><a href="https://plus.google.com/108447166401370850868" target="_blank">Google+</a></div></li>
-
-            </ul>
+        <footer id="credits" class="row">
+          <div class="seven columns left-center">
+             <img alt="Welcome" height="77px" width="103px" src="http://blog.lonelylty.com/images/mule.jpg">
+             <address id="about" class="vcard body" style="margin-left:130px;margin-top:-90px">
+              博主目前从事全栈开发，不喜欢重复造轮子，码得了代码，调得了BUG.<br/>
+              Email:<a href="mailto:lonelylty@gmail.com">lonelylty@gmail.com</a> 欢迎添加友链~.<br/>
+              本博客使用Pelican+GitHub Pages搭建，详细请
+              <a href="http://www.xycoding.com/articles/2013/11/21/blog-create/" class="active" target="_blank">参考教程</a>.
+              <!-- Proudly powered by <a href="http://getpelican.com/">Pelican</a>,
+              which takes great advantage of <a href="http://python.org">Python</a>.
+              <br />
+              Based on the <a target="_blank" href="http://gumbyframework.com">Gumby Framework</a> -->
+              </address>
           </div>
-        </div>
-      </footer>
 
-     </div>
+          <div class="seven columns">
+            <div class="row">
+              <ul class="socbtns">
+
+                <li><div class="btn primary"><a href="https://github.com/lonelylty" target="_blank">Github</a></div></li>
+
+
+                <li><div class="btn facebook"><a href="https://www.facebook.com/profile.php?id=100013355288029" target="_blank">Facebook</a></div></li>
+
+                <li><div class="btn danger"><a href="https://plus.google.com/108447166401370850868" target="_blank">Google+</a></div></li>
+
+              </ul>
+            </div>
+          </div>
+        </footer>
+    </div>
     
-            
+        
     <script src="http://blog.lonelylty.com/theme/js/libs/jquery-1.9.1.min.js"></script>
     <script src="http://blog.lonelylty.com/theme/js/libs/modernizr-2.6.2.min.js"></script>
     <script src="http://blog.lonelylty.com/theme/js/libs/jquery.mobile.custom.min.js"></script>
     <script src="http://blog.lonelylty.com/theme/js/libs/gumby.min.js"></script>
     <script src="http://blog.lonelylty.com/theme/js/plugins.js"></script>
+    <script src="http://blog.lonelylty.com/theme/js/libs/reward.js"></script>
+    <script src="http://blog.lonelylty.com/theme/js/libs/tipuesearch_set.js"></script>
+    <script src="http://blog.lonelylty.com/theme/js/libs/tipuesearch.min.js"></script>
+    <script src="http://blog.lonelylty.com/theme/js/libs/particles.min.js"></script>
     <script>
-    (function() {
-    var $backToTopTxt = "∧", $backToTopEle = $('<div class="backToTop"></div>').appendTo($("body"))
-      .text($backToTopTxt).attr("title", $backToTopTxt).click(function() {
-        $("html, body").animate({ scrollTop: 0 }, 120);
-    }), $backToTopFun = function() {
-      var st = $(document).scrollTop(), winh = $(window).height();
-      (st > 1200)? $backToTopEle.show(): $backToTopEle.hide();
-      //IE6下的定位
-      if (!window.XMLHttpRequest) {
-        $backToTopEle.css("top", st + winh - 166);
-      }
-    };
-    $(window).bind("scroll", $backToTopFun);
-    $(function() { $backToTopFun(); });
-  })();
-  </script>
+        (function() {
+        var $backToTopTxt = "∧", $backToTopEle = $('<div class="backToTop"></div>').appendTo($("body"))
+          .text($backToTopTxt).attr("title", $backToTopTxt).click(function() {
+            $("html, body").animate({ scrollTop: 0 }, 120);
+        }), $backToTopFun = function() {
+          var st = $(document).scrollTop(), winh = $(window).height();
+          (st > 1200)? $backToTopEle.show(): $backToTopEle.hide();
+          //IE6下的定位
+          if (!window.XMLHttpRequest) {
+            $backToTopEle.css("top", st + winh - 166);
+          }
+        };
+        $(window).bind("scroll", $backToTopFun);
+        $(function() { $backToTopFun(); });
+        })();
 
-  <script language="javascript" type="text/javascript" src="http://int.dpool.sina.com.cn/iplookup/iplookup.php?format=js"></script>
-    <script>
-        var local = '';
-        if (remote_ip_info['city'] == "") {
-            local = remote_ip_info['province'];
-        }
-        else {
-            local = remote_ip_info['city'];
-        }
-        document.title = local + " " + document.title;
+        $(document).ready(function() {
+                 $('#tipue_search_input').tipuesearch({
+                     'show': 10,
+                     'mode': 'json',
+                     'contentLocation': 'http://blog.lonelylty.com/tipuesearch_content.json',
+                     'descriptiveWords': 20,
+                     'showURL': false,
+                 });
+            });
     </script>
-    <!-- <script type="text/javascript" src="http://v3.jiathis.com/code/jia.js" charset="utf-8"></script> -->
+
+    <!-- <script src="http://static.tctip.com/js/tctip.min.js"></script> -->
+    <script language="javascript" type="text/javascript" src="http://int.dpool.sina.com.cn/iplookup/iplookup.php?format=js"></script>
+    <script>
+    var local = '';
+    if (remote_ip_info['city'] == "") {
+      local = remote_ip_info['province'];
+    }
+    else {
+      local = remote_ip_info['city'];
+    }
+    document.title = local + " " + document.title;
+    </script>
     <!-- Go to www.addthis.com/dashboard to customize your tools --> 
-    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5860860a60c28451"></script> 
+    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5860860a60c28451"></script>
+    <!-- <script type="text/javascript" src="http://v3.jiathis.com/code/jia.js" charset="utf-8"></script> -->
     <script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js?uid=2119085"></script>
-              <script>
-                (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-                })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-                ga('create', 'UA-86964520-1', 'blog.lonelylty.com');
-                ga('send', 'pageview');
 
-              </script>
+      <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-    <script src="http://static.tctip.com/js/tctip.min.js"></script>
+        ga('create', 'UA-86964520-1', 'blog.lonelylty.com');
+        ga('send', 'pageview');
+
+      </script>
+
 </body>
 </html>

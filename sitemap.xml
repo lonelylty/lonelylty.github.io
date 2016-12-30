@@ -5,7 +5,14 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://blog.lonelylty.com/</loc>
-<lastmod>2016-12-26T11:38:08-00:00</lastmod>
+<lastmod>2016-12-30T17:24:53-00:00</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://blog.lonelylty.com/functions/search.html</loc>
+<lastmod>2016-12-30T17:24:53-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -46,6 +53,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
+<loc>http://blog.lonelylty.com/tag/regex.html</loc>
+<lastmod>2016-09-01T09:57:00+08:06</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
 <loc>http://blog.lonelylty.com/tag/sport.html</loc>
 <lastmod>2016-11-01T09:57:00+08:06</lastmod>
 <changefreq>daily</changefreq>
@@ -55,13 +69,6 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>http://blog.lonelylty.com/tag/markdown.html</loc>
 <lastmod>2016-10-31T16:57:00+08:06</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>http://blog.lonelylty.com/tag/regex.html</loc>
-<lastmod>2016-09-01T09:57:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
