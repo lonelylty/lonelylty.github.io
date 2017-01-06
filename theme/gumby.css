@@ -132,7 +132,8 @@ html, body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Open Sans";
+  /*font-family: "Open Sans";*/
+  font-family: 'Microsoft Yahei',Verdana,Arial,Helvetica,sans-serif;
   font-weight: 300;
   color: #444444;
   text-rendering: optimizeLegibility;
@@ -5353,11 +5354,11 @@ form fieldset legend {
 
 /* Labels */
 .badge, .label {
-  height: 20px;
+  height: 25px;
   display: inline-block;
   font-family: Helvetica, arial, verdana, sans-serif;
   font-weight: bold;
-  line-height: 20px;
+  line-height: 25px;
   text-align: center;
   color: #fff;
 }
@@ -5429,7 +5430,8 @@ form fieldset legend {
   background: #212121;
 }
 .badge.danger, .label.danger {
-  background: #ca3838;
+  /*background: #ca3838;*/
+  background: #4EEE94;
 }
 .badge.light, .label.light {
   background: #fff;
@@ -5518,11 +5520,11 @@ form fieldset legend {
   padding: 0 10px;
   font-size: 12px;
   font-size: 0.75rem;
-  -webkit-border-radius: 2px;
+  /*-webkit-border-radius: 2px;
   -moz-border-radius: 2px;
   -ms-border-radius: 2px;
   -o-border-radius: 2px;
-  border-radius: 2px;
+  border-radius: 2px;*/
 }
 
 .alert {
@@ -7141,7 +7143,7 @@ footer#credits .socbtns {
 }
 
 .sidebarbg {
-    background-color: #FBFBFB;
+    /*background-color: #FBFBFB;*/
     border: 1px solid rgba(0, 0, 0, 0.05);
     border-radius: 4px;
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05) inset;
@@ -7207,3 +7209,52 @@ a {word-wrap:break-word;}
     }
 }
 
+.date {
+    color: #333;
+    text-transform: uppercase;
+    font-family: Georgia,serif;
+    font-weight: normal;
+    text-shadow: 1px 1px 0 #ddd;
+    width: 90px;
+    height: 35px;
+    float: left;
+    margin: 4px 10px 0 0;
+    padding: 0 10px 0 0;
+    border-right: 1px solid #ddd;
+    text-align: left;
+  }
+  .day{
+    font-size: 30px;
+    float: left;
+    line-height: 56px;
+    margin-top: -14px;
+    color: #40aa52;
+    font-weight: 800;
+  }
+  .month{
+    font-size: 12px;
+    position: relative;
+    top: -4px;
+    width: 35px;
+    height: 21px;
+    float: right;
+  }
+  .year{
+    font-size: 12px;
+    position: relative;
+    top: -12px;
+    width: 35px;
+    height: 21px;
+    float: right;
+  }
+
+#web_loading{
+z-index:1;
+width:100%;
+position:fixed;
+}
+#web_loading div{
+width:0;
+height:3px;
+background:#4EEE94;
+}

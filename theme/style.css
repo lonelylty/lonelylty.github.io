@@ -166,7 +166,7 @@ table th[class*="span"],
 --------------------------------------------------------- */
 
 #post-list { margin-left:0; }
-#post-list > li {list-style:none;  border-bottom: 2px solid #ccc;  margin-bottom: 20px;  padding-bottom: 15px;}
+#post-list > li {list-style:none;  border-bottom: 1px solid #eee;  margin-bottom: 20px;  padding-bottom: 15px;}
 
 .tag-row {margin-top:20px;}
 
@@ -204,7 +204,7 @@ ul.blank {
 
 /* Footer
 --------------------------------------------------------- */
-.bg { background:#eee; margin-top:35px; padding-top:25px; border-top:5px solid #4EEE94; }
+.bg { /*background:#eee;*/ margin-top:35px; padding-top:25px; border-top:5px solid #4EEE94; }
 
 
 

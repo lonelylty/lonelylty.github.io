@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>醍醐灌顶</title><link href="http://blog.lonelylty.com/" rel="alternate"></link><link href="http://blog.lonelylty.com/feeds/nick.atom.xml" rel="self"></link><id>http://blog.lonelylty.com/</id><updated>2016-11-01T09:57:00+08:00</updated><entry><title>科技园</title><link href="http://blog.lonelylty.com/articles/2016/11/01/football/" rel="alternate"></link><published>2016-11-01T09:57:00+08:00</published><updated>2016-11-01T09:57:00+08:00</updated><author><name>nick</name></author><id>tag:blog.lonelylty.com,2016-11-01:articles/2016/11/01/football/</id><summary type="html">&lt;h5&gt;科技园足球场&lt;/h5&gt;
-&lt;p&gt;南山科技园科兴科学园北门，新开场地，长园足球场。踢一场送一场酬宾。每个队4月1号前可享受一次赠送。三个5人场，一个7人场。预定电话15811800238。&lt;/p&gt;</summary><category term="sport"></category></entry><entry><title>Markdown 11种基本语法</title><link href="http://blog.lonelylty.com/articles/2016/10/31/markdown/" rel="alternate"></link><published>2016-10-31T16:57:00+08:00</published><updated>2016-10-31T16:57:00+08:00</updated><author><name>nick</name></author><id>tag:blog.lonelylty.com,2016-10-31:articles/2016/10/31/markdown/</id><summary type="html">&lt;h5&gt;1. 标题设置（让字体变大，和word的标题意思一样）&lt;/h5&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>醍醐灌顶 - nick</title><link href="http://blog.lonelylty.com/" rel="alternate"></link><link href="http://blog.lonelylty.com/feeds/nick.atom.xml" rel="self"></link><id>http://blog.lonelylty.com/</id><updated>2016-11-01T09:57:00+01:00</updated><entry><title>科技园</title><link href="http://blog.lonelylty.com/articles/2016/11/01/football/" rel="alternate"></link><published>2016-11-01T09:57:00+01:00</published><updated>2016-11-01T09:57:00+01:00</updated><author><name>nick</name></author><id>tag:blog.lonelylty.com,2016-11-01:/articles/2016/11/01/football/</id><summary type="html">&lt;h5&gt;科技园足球场&lt;/h5&gt;
+&lt;p&gt;南山科技园科兴科学园北门，新开场地，长园足球场。踢一场送一场酬宾。每个队4月1号前可享受一次赠送。三个5人场，一个7人场。预定电话15811800238。&lt;/p&gt;</summary><content type="html">&lt;h5&gt;科技园足球场&lt;/h5&gt;
+&lt;p&gt;南山科技园科兴科学园北门，新开场地，长园足球场。踢一场送一场酬宾。每个队4月1号前可享受一次赠送。三个5人场，一个7人场。预定电话15811800238。&lt;/p&gt;</content><category term="sport"></category></entry><entry><title>Markdown 11种基本语法</title><link href="http://blog.lonelylty.com/articles/2016/10/31/markdown/" rel="alternate"></link><published>2016-10-31T16:57:00+01:00</published><updated>2016-10-31T16:57:00+01:00</updated><author><name>nick</name></author><id>tag:blog.lonelylty.com,2016-10-31:/articles/2016/10/31/markdown/</id><summary type="html">&lt;h5&gt;1. 标题设置（让字体变大，和word的标题意思一样）&lt;/h5&gt;
+&lt;p&gt;在Markdown当中设置标题，有两种方式：
+第一种：通过在文字下方添加“=”和“-”，他们分别表示一级标题和二级标题。
+第二种：在文字开头加上 “#”，通过“#”数量表示几级标题。（一共只有1~6级标题，1级标题字体最大）&lt;/p&gt;
+&lt;h5&gt;2. 块注释（blockquote …&lt;/h5&gt;</summary><content type="html">&lt;h5&gt;1. 标题设置（让字体变大，和word的标题意思一样）&lt;/h5&gt;
 &lt;p&gt;在Markdown当中设置标题，有两种方式：
 第一种：通过在文字下方添加“=”和“-”，他们分别表示一级标题和二级标题。
 第二种：在文字开头加上 “#”，通过“#”数量表示几级标题。（一共只有1~6级标题，1级标题字体最大）&lt;/p&gt;
@@ -21,8 +26,8 @@
 I get 10 times more traffic from &lt;a href="http://google.com/" title="Google"&gt;Google&lt;/a&gt; than from &lt;a href="http://search.yahoo.com/" title="Yahoo Search"&gt;Yahoo&lt;/a&gt; or &lt;a href="http://search.msn.com/" title="MSN Search"&gt;MSN&lt;/a&gt;.  &lt;/p&gt;
 &lt;h5&gt;8. 图片（Images）&lt;/h5&gt;
 &lt;p&gt;图片的处理方式和链接的处理方式，非常的类似。
-内联方式：&lt;img alt="alt text" src="/path/to/img.jpg" title="Title" /&gt;
-引用方式：&lt;img alt="alt text" src="/path/to/img.jpg" title="Title" /&gt; &lt;/p&gt;
+内联方式：&lt;img alt="alt text" src="/path/to/img.jpg" title="Title"&gt;
+引用方式：&lt;img alt="alt text" src="/path/to/img.jpg" title="Title"&gt; &lt;/p&gt;
 &lt;h5&gt;9. 代码（HTML中所谓的Code）&lt;/h5&gt;
 &lt;p&gt;实现方式有两种：
 第一种：简单文字出现一个代码框。使用&lt;code&gt;&amp;lt;blockquote&amp;gt;&lt;/code&gt;。（&lt;code&gt;不是单引号而是左上角的ESC下面~中的&lt;/code&gt;）
@@ -32,7 +37,50 @@ I get 10 times more traffic from &lt;a href="http://google.com/" title="Google"&
 hello[^hello]&lt;/p&gt;
 &lt;h5&gt;11. 下划线&lt;/h5&gt;
 &lt;p&gt;在空白行下方添加三条“-”横线。（前面讲过在文字下方添加“-”，实现的2级标题）&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://stackedit.io/"&gt;推荐一款在线的Markdown编辑器&lt;/a&gt; &lt;/p&gt;</summary><category term="markdown"></category></entry><entry><title>正则速查</title><link href="http://blog.lonelylty.com/articles/2016/09/01/regex/" rel="alternate"></link><published>2016-09-01T09:57:00+08:00</published><updated>2016-09-01T09:57:00+08:00</updated><author><name>nick</name></author><id>tag:blog.lonelylty.com,2016-09-01:articles/2016/09/01/regex/</id><summary type="html">&lt;h5&gt;常用元字符&lt;/h5&gt;
+&lt;p&gt;&lt;a href="https://stackedit.io/"&gt;推荐一款在线的Markdown编辑器&lt;/a&gt; &lt;/p&gt;</content><category term="markdown"></category></entry><entry><title>正则速查</title><link href="http://blog.lonelylty.com/articles/2016/09/01/regex/" rel="alternate"></link><published>2016-09-01T09:57:00+02:00</published><updated>2016-09-01T09:57:00+02:00</updated><author><name>nick</name></author><id>tag:blog.lonelylty.com,2016-09-01:/articles/2016/09/01/regex/</id><summary type="html">&lt;h5&gt;常用元字符&lt;/h5&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;符号&lt;/th&gt;
+&lt;th&gt;说明&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;.&lt;/td&gt;
+&lt;td&gt;匹配除换行符以外的任意字符。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;\w&lt;/td&gt;
+&lt;td&gt;匹配字母或数字或下划线或汉字。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;\s&lt;/td&gt;
+&lt;td&gt;匹配任意的空白符。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;\d&lt;/td&gt;
+&lt;td&gt;匹配数字。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;\b&lt;/td&gt;
+&lt;td&gt;匹配单词的开始或结束。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;[ck]&lt;/td&gt;
+&lt;td&gt;匹配包含括号内元素的字符&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;^&lt;/td&gt;
+&lt;td&gt;匹配行的开始。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;$&lt;/td&gt;
+&lt;td&gt;匹配行的结束。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;\&lt;/td&gt;
+&lt;td&gt;对下一个字符转义。比如$是个特殊    的字符 …&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;</summary><content type="html">&lt;h5&gt;常用元字符&lt;/h5&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -167,7 +215,7 @@ hello[^hello]&lt;/p&gt;
 &lt;td&gt;匹配前面的子表达式零次或一次。&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td n="n"&gt;&lt;/td&gt;
+&lt;td n&gt;&lt;/td&gt;
 &lt;td&gt;n 是一个非负整数。匹配确定的 n 次。&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
@@ -242,11 +290,11 @@ hello[^hello]&lt;/p&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;(?!exp)&lt;/td&gt;
-&lt;td 3="3"&gt;匹配后面跟的不是exp的位置。如 "123abc" 正则 "\d&lt;/td&gt;
+&lt;td 3&gt;匹配后面跟的不是exp的位置。如 "123abc" 正则 "\d&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;(?&amp;lt;!exp)&lt;/td&gt;
 &lt;td&gt;匹配前面不是exp的位置。&lt;br&gt;如 "abc123 " 正则 "(?&amp;lt;![0-9])123" 匹配"123"前面是非数字的结果也可写成"(?!&amp;lt;\d)123"&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
-&lt;/table&gt;</summary><category term="regex"></category></entry></feed>
+&lt;/table&gt;</content><category term="regex"></category></entry></feed>
