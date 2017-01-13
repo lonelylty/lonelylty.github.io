@@ -309,7 +309,7 @@ em {
 }
 
 strong {
-  font-weight: 700;
+  /*font-weight: 700;*/
   line-height: inherit;
 }
 
@@ -7203,7 +7203,7 @@ a {word-wrap:break-word;}
     width: 80px;
     text-align: center;
 }
-@media screen and (max-width:1100px) {
+@media screen and (max-width:1300px) {
     .nav-single-c a {
         display: none
     }

@@ -5,28 +5,28 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://blog.lonelylty.com/</loc>
-<lastmod>2017-01-06T10:44:27-00:00</lastmod>
+<lastmod>2017-01-13T10:33:27-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://blog.lonelylty.com/functions/search.html</loc>
-<lastmod>2017-01-06T10:44:27-00:00</lastmod>
+<lastmod>2017-01-13T10:33:27-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://blog.lonelylty.com/articles/2016/11/01/football/</loc>
-<lastmod>2016-11-01T09:57:00+01:00</lastmod>
+<loc>http://blog.lonelylty.com/articles/2017/01/01/how-it-feels-to-learn-javascript-in-2016/</loc>
+<lastmod>2017-01-01T09:57:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
 
 <url>
-<loc>http://blog.lonelylty.com/articles/2016/10/31/markdown/</loc>
-<lastmod>2016-10-31T16:57:00+01:00</lastmod>
+<loc>http://blog.lonelylty.com/articles/2016/10/07/web-architecture-evolution/</loc>
+<lastmod>2016-10-07T09:57:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
@@ -39,29 +39,29 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
+<loc>http://blog.lonelylty.com/articles/2016/07/31/markdown/</loc>
+<lastmod>2016-10-31T16:57:00+01:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+
+<url>
 <loc>http://blog.lonelylty.com/category/coding.html</loc>
-<lastmod>2016-10-31T16:57:00+00:09</lastmod>
+<lastmod>2017-01-01T09:57:00+00:09</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://blog.lonelylty.com/category/living.html</loc>
-<lastmod>2016-11-01T09:57:00+00:09</lastmod>
+<loc>http://blog.lonelylty.com/tag/architecture.html</loc>
+<lastmod>2016-10-07T09:57:00+00:09</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://blog.lonelylty.com/tag/sport.html</loc>
-<lastmod>2016-11-01T09:57:00+00:09</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>http://blog.lonelylty.com/tag/markdown.html</loc>
-<lastmod>2016-10-31T16:57:00+00:09</lastmod>
+<loc>http://blog.lonelylty.com/tag/javascript.html</loc>
+<lastmod>2017-01-01T09:57:00+00:09</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -74,8 +74,15 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
+<loc>http://blog.lonelylty.com/tag/markdown.html</loc>
+<lastmod>2016-10-31T16:57:00+00:09</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
 <loc>http://blog.lonelylty.com/author/nick.html</loc>
-<lastmod>2016-11-01T09:57:00+00:09</lastmod>
+<lastmod>2017-01-01T09:57:00+00:09</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
