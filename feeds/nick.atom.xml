@@ -226,7 +226,153 @@
 &lt;p&gt;&lt;img alt="缓存" src="/images/web_arch_cached.png"&gt;&lt;/p&gt;
 &lt;h4&gt;总结&lt;/h4&gt;
 &lt;hr&gt;
-&lt;p&gt;看起来很简单，很自然的演进，都是 IT 技术人员数十年努力的结果，绝不简单，绝不容易。如果和研发的开会，你要是说，不是很简单吗，加个分布式数据库不就可以解决问题么？我敢保证程序员们会在内心鄙视你，如果你不是发工资的那个人，鄙视还可能溢于言表。&lt;/p&gt;</content><category term="architecture"></category></entry><entry><title>正则速查</title><link href="http://blog.lonelylty.com/articles/2016/09/01/regex/" rel="alternate"></link><published>2016-09-01T09:57:00+02:00</published><updated>2016-09-01T09:57:00+02:00</updated><author><name>nick</name></author><id>tag:blog.lonelylty.com,2016-09-01:/articles/2016/09/01/regex/</id><summary type="html">&lt;h5&gt;常用元字符&lt;/h5&gt;
+&lt;p&gt;看起来很简单，很自然的演进，都是 IT 技术人员数十年努力的结果，绝不简单，绝不容易。如果和研发的开会，你要是说，不是很简单吗，加个分布式数据库不就可以解决问题么？我敢保证程序员们会在内心鄙视你，如果你不是发工资的那个人，鄙视还可能溢于言表。&lt;/p&gt;</content><category term="architecture"></category></entry><entry><title>.NET in Linux Web 服务器配置</title><link href="http://blog.lonelylty.com/articles/2016/07/28/.net-web-server-configuration-in-linux/" rel="alternate"></link><published>2016-07-28T14:57:00+02:00</published><updated>2016-07-28T14:57:00+02:00</updated><author><name>nick</name></author><id>tag:blog.lonelylty.com,2016-07-28:/articles/2016/07/28/.net-web-server-configuration-in-linux/</id><summary type="html">&lt;blockquote&gt;
+&lt;h4&gt;安装linux&lt;/h4&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;首先我们要做的就是安装linux，其发行版redhat,ubuntu,centos等等都可以，我选择了centos.&lt;/p&gt;
+&lt;p&gt;1.下载 &lt;a href="https://www.centos.org/download" target="_blank"&gt;centos&lt;/a&gt;,安装过程这里不再赘述&lt;/p&gt;
+&lt;p&gt;2.服务器装好系统之后，更新系统 (耗时操作,可选择执行)&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;yum -y update&lt;/code&gt; 升级所有包，改变软件设置和系统设置 …&lt;/p&gt;</summary><content type="html">&lt;blockquote&gt;
+&lt;h4&gt;安装linux&lt;/h4&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;首先我们要做的就是安装linux，其发行版redhat,ubuntu,centos等等都可以，我选择了centos.&lt;/p&gt;
+&lt;p&gt;1.下载 &lt;a href="https://www.centos.org/download" target="_blank"&gt;centos&lt;/a&gt;,安装过程这里不再赘述&lt;/p&gt;
+&lt;p&gt;2.服务器装好系统之后，更新系统 (耗时操作,可选择执行)&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;yum -y update&lt;/code&gt; 升级所有包，改变软件设置和系统设置,系统版本内核都升级&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;yum -y upgrade&lt;/code&gt; 升级所有包，不改变软件设置和系统设置，系统版本升级，内核不改变&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;h4&gt;安装mono&lt;/h4&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;在linux上安装mono,以便跑我们写的.net应用，另外对.net core感兴趣的同学也可以去试试，就不用装mono了,不过自己写的站点在迁移时就都要用.net core重新生成一遍了,这里有篇博文可以看看&lt;a href="http://www.cnblogs.com/shanyou/p/4295163.html" target="_blank"&gt;http://www.cnblogs.com/shanyou/p/4295163.html&lt;/a&gt;，个人认为目前成熟的解决方案还是mono&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;1.安装Mono源码依赖库&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;yum -y install gcc gcc-c++ bison pkgconfig glib2-devel gettext make libpng-devel libjpeg-devel libtiff-devel libexif-devel giflib-devel libX11-devel freetype-devel fontconfig-devel  cairo-devel
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;可能还需要安装cmake，我在配置mono的时候遇到&lt;/p&gt;
+&lt;p&gt;&lt;img alt="mono依赖" src="/images/jexus/mono_config_error.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="mono依赖" src="/images/jexus/mono_gcc.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;2.安装Mono需要的GDI+ 兼容API库 - Libgdiplus&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Libgdiplus是一个Mono库，用于对非Windows操作系统提供GDI+兼容的API。libgdiplus是mono中的System.Drawing依赖的一个组件，用于显示web页面基本颜色等。最新版本查看地址：&lt;a href="http://download.mono-project.com/sources/libgdiplus/" target="_blank"&gt;http://download.mono-project.com/sources/libgdiplus/&lt;/a&gt;&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;cd /usr/local/src/
+
+wget http://download.mono-project.com/sources/libgdiplus/libgdiplus-x.xx.tar.bz2 具体版本视情况而定
+
+tar -jxvf libgdiplus-x.xx.tar.bz2
+
+cd libgdiplus-x.xx
+
+./configure --prefix=/usr
+
+make
+
+make install
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;img alt="monogdi插件" src="/images/jexus/mono_gdiplus.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="monogdi插件" src="/images/jexus/mono_gdi_configure.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="monogdi插件" src="/images/jexus/mono_gdi_configure_summary.png"&gt;&lt;/p&gt;
+&lt;p&gt;Tips:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;tar [-cxtzjvfpPN] 文件与目录 ....
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;参数： &lt;/p&gt;
+&lt;p&gt;-c ：建立一个压缩文件的参数指令(create 的意思)； &lt;/p&gt;
+&lt;p&gt;-x ：解开一个压缩文件的参数指令！ &lt;/p&gt;
+&lt;p&gt;-t ：查看 tarfile 里面的文件！ &lt;/p&gt;
+&lt;p&gt;特别注意，在参数的下达中， c/x/t 仅能存在一个！不可同时存在！因为不可能同时压缩与解压缩。&lt;/p&gt;
+&lt;p&gt;-z ：是否同时具有 gzip 的属性？亦即是否需要用 gzip 压缩？ &lt;/p&gt;
+&lt;p&gt;-j ：是否同时具有 bzip2 的属性？亦即是否需要用 bzip2 压缩？ &lt;/p&gt;
+&lt;p&gt;-v ：压缩的过程中显示文件！这个常用，但不建议用在背景执行过程！ &lt;/p&gt;
+&lt;p&gt;-f ：使用档名，请留意，在 f 之后要立即接档名喔！不要再加参数&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;3.安装 mono&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;最新版本查看地址：&lt;a href="http://download.mono-project.com/sources/mono/" target="_blank"&gt;http://download.mono-project.com/sources/mono/&lt;/a&gt;&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;cd /usr/local/src/
+
+wget http://download.mono-project.com/sources/mono/mono-x.xx.x.tar.bz2 具体版本视情况而定
+
+tar -jxvf mono-x.xx.x.tar.bz2
+
+cd mono-x.xx.x
+
+./configure --prefix=/usr
+
+make
+
+make install
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;img alt="mono配置" src="/images/jexus/mono_dowload.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="mono配置" src="/images/jexus/mono_configure.png"&gt;&lt;/p&gt;
+&lt;p&gt;经过漫长的编译过程，大概需要半小时左右,输入&lt;code&gt;mono -V&lt;/code&gt; 有mono版本信息,则安装成功&lt;/p&gt;
+&lt;p&gt;&lt;img alt="mono配置" src="/images/jexus/mono_configure_summary.png"&gt;&lt;/p&gt;
+&lt;p&gt;Tips:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;源码的安装一般由3个步骤组成：配置(configure)、编译(make)、安装(make install)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;--prefix选项是配置安装的路径，如果不配置该选项，安装后可执行文件默认放在/usr /local/bin，库文件默认放在/usr/local/lib，配置文件默认放在/usr/local/etc，其它的资源文件放在/usr /local/share，比较凌乱&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote&gt;
+&lt;h4&gt;安装jexus&lt;/h4&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;选择国产的jexus作为web服务器，选这个应该是先入为主的感觉...还有就是有个 &lt;a href="https://www.linuxdot.net/" target="_blank"&gt;linuxdotnet社区&lt;/a&gt;，jexus配置教程和常见问题，都能在这里找到答案。把解压所得到的文件及文件夹全部复制或移动到 /usr/jexus 这个文件夹中即可&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;cd /tmp
+wget http://www.linuxdot.net/down/jexus-x.x.x.tar.gz
+tar -zxvf jexus-x.x.x.tar.gz
+sudo mv jexus /usr/
+cd /usr/jexus
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;img alt="jexus目录" src="/images/jexus/jexus_folder.png"&gt;&lt;/p&gt;
+&lt;p&gt;Tips: &lt;/p&gt;
+&lt;p&gt;注意安装的centos版本，centos从7.x开始默认用的是firewalld，这个是基于iptables的，虽然有iptables的核心，但是iptables的服务是没安装的，低于7的还是可以使用iptables,将80端口打开&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;firewall-cmd --zone=public --query-port=80/tcp 查看
+firewall-cmd --zone=public --add-port=80/tcp --permanent   添加 （--permanent永久生效，没有此参数重启后失效）
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;CentOS 6.x装好mono和Jexus后，在 /ect/rc.local 后面添加 /usr/jexus/jws start 就可以让jexus跟随系统一起启动,然而在CentOS 7.x上用上面的方法却行不通&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;vi /lib/systemd/system/jexus.service
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;写入如下脚本&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;Description=jexus                   描述服务
+After=network.target                描述服务类别
+[Service]                           服务运行参数的设置
+Type=forking                        后台运行的形式
+ExecStart=/usr/jexus/jws start      服务的具体运行命令
+ExecReload=/usr/jexus/jws restart   重启命令
+ExecStop=/usr/jexus/jws stop        停止命令
+PrivateTmp=true                     表示给服务分配独立的临时空间
+[Install]                           服务安装的相关设置，可设置为多用户
+WantedBy=multi-user.target
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;img alt="jexus自启动" src="/images/jexus/jexus_self_start.png"&gt;&lt;/p&gt;
+&lt;p&gt;修改时注意服务的路径，你也可以从/lib/systemd/system 文件夹下复制一个service结尾的文件，改名后修改里面的内容。修改后 设置权限 加入到服务中去&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;chmod 754 jexus.service 
+systemctl enable jexus.service
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;最后reboot看看有没有生效&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;h4&gt;安装nginx&lt;/h4&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;选择nginx作为反向代理服务器，个人感觉小型站点使用这个，有点杀鸡用牛刀的赶脚，这里也不班门弄斧了，这里有个 &lt;a href="http://www.runoob.com/linux/nginx-install-setup.html" target="_blank"&gt;教程地址&lt;/a&gt; ，感觉写的还不错&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;h4&gt;结语&lt;/h4&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;最后根据不同的业务，选择合适的数据库,whatever you want! 在这里给出linux上安装mysql&lt;a href="http://www.runoob.com/linux/mysql-install-setup.html" target="_blank"&gt;教程地址&lt;/a&gt;：如果是个人站点，完全可以装在同一台服务器，如果用户访问量较大，建议还是单独弄一台服务器跑数据库&lt;/p&gt;</content><category term="linux"></category></entry><entry><title>正则速查</title><link href="http://blog.lonelylty.com/articles/2016/06/12/regex/" rel="alternate"></link><published>2016-06-12T09:57:00+02:00</published><updated>2016-06-12T09:57:00+02:00</updated><author><name>nick</name></author><id>tag:blog.lonelylty.com,2016-06-12:/articles/2016/06/12/regex/</id><summary type="html">&lt;h5&gt;常用元字符&lt;/h5&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -525,7 +671,7 @@
     &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="nx"&gt;_reg&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
 &lt;span class="p"&gt;})(&lt;/span&gt;&lt;span class="nb"&gt;document&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="nb"&gt;window&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;jQuery&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
 &lt;span class="nb"&gt;window&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;regex&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nx"&gt;regex&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;</content><category term="regex"></category></entry><entry><title>Markdown 11种基本语法</title><link href="http://blog.lonelylty.com/articles/2016/07/31/markdown/" rel="alternate"></link><published>2016-07-31T16:57:00+02:00</published><updated>2016-10-31T16:57:00+01:00</updated><author><name>nick</name></author><id>tag:blog.lonelylty.com,2016-07-31:/articles/2016/07/31/markdown/</id><summary type="html">&lt;h5&gt;1. 标题设置（让字体变大，和word的标题意思一样）&lt;/h5&gt;
+&lt;/pre&gt;&lt;/div&gt;</content><category term="regex"></category></entry><entry><title>Markdown 11种基本语法</title><link href="http://blog.lonelylty.com/articles/2016/05/31/markdown/" rel="alternate"></link><published>2016-05-31T16:57:00+02:00</published><updated>2016-05-31T16:57:00+02:00</updated><author><name>nick</name></author><id>tag:blog.lonelylty.com,2016-05-31:/articles/2016/05/31/markdown/</id><summary type="html">&lt;h5&gt;1. 标题设置（让字体变大，和word的标题意思一样）&lt;/h5&gt;
 &lt;p&gt;在Markdown当中设置标题，有两种方式：
 第一种：通过在文字下方添加“=”和“-”，他们分别表示一级标题和二级标题。
 第二种：在文字开头加上 “#”，通过“#”数量表示几级标题。（一共只有1~6级标题，1级标题字体最大）&lt;/p&gt;

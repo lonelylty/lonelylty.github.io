@@ -62,13 +62,30 @@ $(function(){
   }
 })(jQuery);
 
+// (function() {
+// var $backToTopTxt = "∧", $backToTopEle = $('<div class="backToTop"></div>').appendTo($("body"))
+//   .text($backToTopTxt).attr("title", $backToTopTxt).click(function() {
+//     $("html, body").animate({ scrollTop: 0 }, 120);
+// }), $backToTopFun = function() {
+//   var st = $(document).scrollTop(), winh = $(window).height();
+//   (st > 1200)? $backToTopEle.show(): $backToTopEle.hide();
+//   //IE6下的定位
+//   if (!window.XMLHttpRequest) {
+//     $backToTopEle.css("top", st + winh - 166);
+//   }
+// };
+// $(window).bind("scroll", $backToTopFun);
+// $(function() { $backToTopFun(); });
+// })();
+
 (function() {
-var $backToTopTxt = "∧", $backToTopEle = $('<div class="backToTop"></div>').appendTo($("body"))
-  .text($backToTopTxt).attr("title", $backToTopTxt).click(function() {
-    $("html, body").animate({ scrollTop: 0 }, 120);
+var $backToTopTxt = "我要飞的更高", 
+$backToTopEle = $('<a href="#" id="to-top"></a>').append('<div class="to-top-wrap"></div>').appendTo($("body"))
+  .attr("title", $backToTopTxt).click(function() {
+    $("html, body").animate({ scrollTop: 0 }, 150);
 }), $backToTopFun = function() {
   var st = $(document).scrollTop(), winh = $(window).height();
-  (st > 1200)? $backToTopEle.show(): $backToTopEle.hide();
+  (st > 650)? $backToTopEle.show(): $backToTopEle.hide();
   //IE6下的定位
   if (!window.XMLHttpRequest) {
     $backToTopEle.css("top", st + winh - 166);
@@ -77,3 +94,10 @@ var $backToTopTxt = "∧", $backToTopEle = $('<div class="backToTop"></div>').ap
 $(window).bind("scroll", $backToTopFun);
 $(function() { $backToTopFun(); });
 })();
+
+try {
+	if (window.console && window.console.log) {
+		console.log("%c哟，高人您好,祝您扒代码愉快~！","color:red");
+		console.log("有问题,请留言：lonelylty@gmail.com");
+	};
+} catch (e) {};
