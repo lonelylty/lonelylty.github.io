@@ -226,7 +226,7 @@
 &lt;p&gt;&lt;img alt="缓存" src="/images/web_arch_cached.png"&gt;&lt;/p&gt;
 &lt;h4&gt;总结&lt;/h4&gt;
 &lt;hr&gt;
-&lt;p&gt;看起来很简单，很自然的演进，都是 IT 技术人员数十年努力的结果，绝不简单，绝不容易。如果和研发的开会，你要是说，不是很简单吗，加个分布式数据库不就可以解决问题么？我敢保证程序员们会在内心鄙视你，如果你不是发工资的那个人，鄙视还可能溢于言表。&lt;/p&gt;</content><category term="architecture"></category></entry><entry><title>.NET in Linux Web 服务器配置</title><link href="http://blog.lonelylty.com/articles/2016/07/28/.net-web-server-configuration-in-linux/" rel="alternate"></link><published>2016-07-28T14:57:00+02:00</published><updated>2016-07-28T14:57:00+02:00</updated><author><name>nick</name></author><id>tag:blog.lonelylty.com,2016-07-28:/articles/2016/07/28/.net-web-server-configuration-in-linux/</id><summary type="html">&lt;blockquote&gt;
+&lt;p&gt;看起来很简单，很自然的演进，都是 IT 技术人员数十年努力的结果，绝不简单，绝不容易。如果和研发的开会，你要是说，不是很简单吗，加个分布式数据库不就可以解决问题么？我敢保证程序员们会在内心鄙视你，如果你不是发工资的那个人，鄙视还可能溢于言表。&lt;/p&gt;</content><category term="architecture"></category></entry><entry><title>.NET in Linux Web 服务器配置</title><link href="http://blog.lonelylty.com/articles/2016/07/28/dontnet-web-server-configuration-in-linux/" rel="alternate"></link><published>2016-07-28T14:57:00+02:00</published><updated>2016-07-28T14:57:00+02:00</updated><author><name>nick</name></author><id>tag:blog.lonelylty.com,2016-07-28:/articles/2016/07/28/dontnet-web-server-configuration-in-linux/</id><summary type="html">&lt;blockquote&gt;
 &lt;h4&gt;安装linux&lt;/h4&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;首先我们要做的就是安装linux，其发行版redhat,ubuntu,centos等等都可以，我选择了centos.&lt;/p&gt;

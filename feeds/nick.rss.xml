@@ -9,13 +9,13 @@
 &lt;hr&gt;
 &lt;p&gt;实际上，上古时代并遥远，大概在 30 年前吧，甚至更近。那个时候上网的人很少，网站架构简单地一踏糊涂。&lt;/p&gt;
 &lt;p&gt;&lt;img alt="上古时代" src="/images/web_arch_the_ancient_times.png"&gt;&lt;/p&gt;
-&lt;p&gt;就一个数据库加一个应用服务器，应用服务器直接开门迎客。有时候，数据库和应用服务器还运行在同一台主机上，简洁得一踏糊涂。如果你认为这种架构只能做简单的事情 …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">nick</dc:creator><pubDate>Fri, 07 Oct 2016 09:57:00 +0200</pubDate><guid isPermaLink="false">tag:blog.lonelylty.com,2016-10-07:/articles/2016/10/07/web-architecture-evolution/</guid><category>architecture</category></item><item><title>.NET in Linux Web 服务器配置</title><link>http://blog.lonelylty.com/articles/2016/07/28/.net-web-server-configuration-in-linux/</link><description>&lt;blockquote&gt;
+&lt;p&gt;就一个数据库加一个应用服务器，应用服务器直接开门迎客。有时候，数据库和应用服务器还运行在同一台主机上，简洁得一踏糊涂。如果你认为这种架构只能做简单的事情 …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">nick</dc:creator><pubDate>Fri, 07 Oct 2016 09:57:00 +0200</pubDate><guid isPermaLink="false">tag:blog.lonelylty.com,2016-10-07:/articles/2016/10/07/web-architecture-evolution/</guid><category>architecture</category></item><item><title>.NET in Linux Web 服务器配置</title><link>http://blog.lonelylty.com/articles/2016/07/28/dontnet-web-server-configuration-in-linux/</link><description>&lt;blockquote&gt;
 &lt;h4&gt;安装linux&lt;/h4&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;首先我们要做的就是安装linux，其发行版redhat,ubuntu,centos等等都可以，我选择了centos.&lt;/p&gt;
 &lt;p&gt;1.下载 &lt;a href="https://www.centos.org/download" target="_blank"&gt;centos&lt;/a&gt;,安装过程这里不再赘述&lt;/p&gt;
 &lt;p&gt;2.服务器装好系统之后，更新系统 (耗时操作,可选择执行)&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;yum -y update&lt;/code&gt; 升级所有包，改变软件设置和系统设置 …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">nick</dc:creator><pubDate>Thu, 28 Jul 2016 14:57:00 +0200</pubDate><guid isPermaLink="false">tag:blog.lonelylty.com,2016-07-28:/articles/2016/07/28/.net-web-server-configuration-in-linux/</guid><category>linux</category></item><item><title>正则速查</title><link>http://blog.lonelylty.com/articles/2016/06/12/regex/</link><description>&lt;h5&gt;常用元字符&lt;/h5&gt;
+&lt;p&gt;&lt;code&gt;yum -y update&lt;/code&gt; 升级所有包，改变软件设置和系统设置 …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">nick</dc:creator><pubDate>Thu, 28 Jul 2016 14:57:00 +0200</pubDate><guid isPermaLink="false">tag:blog.lonelylty.com,2016-07-28:/articles/2016/07/28/dontnet-web-server-configuration-in-linux/</guid><category>linux</category></item><item><title>正则速查</title><link>http://blog.lonelylty.com/articles/2016/06/12/regex/</link><description>&lt;h5&gt;常用元字符&lt;/h5&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
