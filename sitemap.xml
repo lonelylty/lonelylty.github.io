@@ -4,98 +4,98 @@ xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitem
 xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
-<loc>http://blog.lonelylty.com/</loc>
+<loc>https://blog.lonelylty.com/</loc>
 <lastmod>2017-04-12T16:00:01-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://blog.lonelylty.com/functions/search.html</loc>
+<loc>https://blog.lonelylty.com/functions/search.html</loc>
 <lastmod>2017-04-12T16:00:01-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://blog.lonelylty.com/articles/2017/01/01/how-it-feels-to-learn-javascript-in-2016/</loc>
+<loc>https://blog.lonelylty.com/articles/2017/01/01/how-it-feels-to-learn-javascript-in-2016/</loc>
 <lastmod>2017-01-01T09:57:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
 
 <url>
-<loc>http://blog.lonelylty.com/articles/2016/10/07/web-architecture-evolution/</loc>
+<loc>https://blog.lonelylty.com/articles/2016/10/07/web-architecture-evolution/</loc>
 <lastmod>2016-10-07T09:57:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
 
 <url>
-<loc>http://blog.lonelylty.com/articles/2016/07/28/dontnet-web-server-configuration-in-linux/</loc>
+<loc>https://blog.lonelylty.com/articles/2016/07/28/dontnet-web-server-configuration-in-linux/</loc>
 <lastmod>2016-07-28T14:57:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
 
 <url>
-<loc>http://blog.lonelylty.com/articles/2016/06/12/regex/</loc>
+<loc>https://blog.lonelylty.com/articles/2016/06/12/regex/</loc>
 <lastmod>2016-06-12T09:57:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
 
 <url>
-<loc>http://blog.lonelylty.com/articles/2016/05/31/markdown/</loc>
+<loc>https://blog.lonelylty.com/articles/2016/05/31/markdown/</loc>
 <lastmod>2016-05-31T16:57:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
 
 <url>
-<loc>http://blog.lonelylty.com/category/coding.html</loc>
+<loc>https://blog.lonelylty.com/category/coding.html</loc>
 <lastmod>2017-01-01T09:57:00+00:09</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://blog.lonelylty.com/tag/architecture.html</loc>
+<loc>https://blog.lonelylty.com/tag/architecture.html</loc>
 <lastmod>2016-10-07T09:57:00+00:09</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://blog.lonelylty.com/tag/linux.html</loc>
+<loc>https://blog.lonelylty.com/tag/linux.html</loc>
 <lastmod>2016-07-28T14:57:00+00:09</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://blog.lonelylty.com/tag/markdown.html</loc>
+<loc>https://blog.lonelylty.com/tag/markdown.html</loc>
 <lastmod>2016-05-31T16:57:00+00:09</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://blog.lonelylty.com/tag/javascript.html</loc>
+<loc>https://blog.lonelylty.com/tag/javascript.html</loc>
 <lastmod>2017-01-01T09:57:00+00:09</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://blog.lonelylty.com/tag/regex.html</loc>
+<loc>https://blog.lonelylty.com/tag/regex.html</loc>
 <lastmod>2016-06-12T09:57:00+00:09</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://blog.lonelylty.com/author/nick.html</loc>
+<loc>https://blog.lonelylty.com/author/nick.html</loc>
 <lastmod>2017-01-01T09:57:00+00:09</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>

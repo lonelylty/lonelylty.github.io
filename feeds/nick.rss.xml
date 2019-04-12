@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>醍醐灌顶 - nick</title><link>http://blog.lonelylty.com/</link><description>君子生非异也,善假于物也.</description><lastBuildDate>Sun, 01 Jan 2017 09:57:00 +0100</lastBuildDate><item><title>在2016年学JavaScript是一种什么样的体验</title><link>http://blog.lonelylty.com/articles/2017/01/01/how-it-feels-to-learn-javascript-in-2016/</link><description>&lt;p&gt;&lt;strong&gt;嘿，我最近接到一个 Web 项目，不过老实说，我这两年没怎么接触 Web 编程，听说 Web 技术已经发生了一些变化。听说你是这里对新技术最了解的 Web 开发工程师？&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;准确地说，我是一名「前端工程师」。不过你算是找对人了。我对今年的技术别提多熟了，前端可视化 …&lt;/em&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">nick</dc:creator><pubDate>Sun, 01 Jan 2017 09:57:00 +0100</pubDate><guid isPermaLink="false">tag:blog.lonelylty.com,2017-01-01:/articles/2017/01/01/how-it-feels-to-learn-javascript-in-2016/</guid><category>javascript</category></item><item><title>网站架构演进</title><link>http://blog.lonelylty.com/articles/2016/10/07/web-architecture-evolution/</link><description>&lt;p&gt;网站架构的演进不外乎两个原因：&lt;/p&gt;
+<rss version="2.0"><channel><title>醍醐灌顶 - nick</title><link>https://blog.lonelylty.com/</link><description>君子生非异也,善假于物也.</description><lastBuildDate>Sun, 01 Jan 2017 09:57:00 +0100</lastBuildDate><item><title>在2016年学JavaScript是一种什么样的体验</title><link>https://blog.lonelylty.com/articles/2017/01/01/how-it-feels-to-learn-javascript-in-2016/</link><description>&lt;p&gt;&lt;strong&gt;嘿，我最近接到一个 Web 项目，不过老实说，我这两年没怎么接触 Web 编程，听说 Web 技术已经发生了一些变化。听说你是这里对新技术最了解的 Web 开发工程师？&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;准确地说，我是一名「前端工程师」。不过你算是找对人了。我对今年的技术别提多熟了，前端可视化 …&lt;/em&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">nick</dc:creator><pubDate>Sun, 01 Jan 2017 09:57:00 +0100</pubDate><guid isPermaLink="false">tag:blog.lonelylty.com,2017-01-01:/articles/2017/01/01/how-it-feels-to-learn-javascript-in-2016/</guid><category>javascript</category></item><item><title>网站架构演进</title><link>https://blog.lonelylty.com/articles/2016/10/07/web-architecture-evolution/</link><description>&lt;p&gt;网站架构的演进不外乎两个原因：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;用户越来越多，意味着并发要求越来越高&lt;/li&gt;
 &lt;li&gt;数据越来越多，意味着存储挑战越来越大&lt;/li&gt;
@@ -9,13 +9,13 @@
 &lt;hr&gt;
 &lt;p&gt;实际上，上古时代并遥远，大概在 30 年前吧，甚至更近。那个时候上网的人很少，网站架构简单地一踏糊涂。&lt;/p&gt;
 &lt;p&gt;&lt;img alt="上古时代" src="/images/web_arch_the_ancient_times.png"&gt;&lt;/p&gt;
-&lt;p&gt;就一个数据库加一个应用服务器，应用服务器直接开门迎客。有时候，数据库和应用服务器还运行在同一台主机上，简洁得一踏糊涂。如果你认为这种架构只能做简单的事情 …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">nick</dc:creator><pubDate>Fri, 07 Oct 2016 09:57:00 +0200</pubDate><guid isPermaLink="false">tag:blog.lonelylty.com,2016-10-07:/articles/2016/10/07/web-architecture-evolution/</guid><category>architecture</category></item><item><title>.NET in Linux Web 服务器配置</title><link>http://blog.lonelylty.com/articles/2016/07/28/dontnet-web-server-configuration-in-linux/</link><description>&lt;blockquote&gt;
+&lt;p&gt;就一个数据库加一个应用服务器，应用服务器直接开门迎客。有时候，数据库和应用服务器还运行在同一台主机上，简洁得一踏糊涂。如果你认为这种架构只能做简单的事情 …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">nick</dc:creator><pubDate>Fri, 07 Oct 2016 09:57:00 +0200</pubDate><guid isPermaLink="false">tag:blog.lonelylty.com,2016-10-07:/articles/2016/10/07/web-architecture-evolution/</guid><category>architecture</category></item><item><title>.NET in Linux Web 服务器配置</title><link>https://blog.lonelylty.com/articles/2016/07/28/dontnet-web-server-configuration-in-linux/</link><description>&lt;blockquote&gt;
 &lt;h4&gt;安装linux&lt;/h4&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;首先我们要做的就是安装linux，其发行版redhat,ubuntu,centos等等都可以，我选择了centos.&lt;/p&gt;
 &lt;p&gt;1.下载 &lt;a href="https://www.centos.org/download" target="_blank"&gt;centos&lt;/a&gt;,安装过程这里不再赘述&lt;/p&gt;
 &lt;p&gt;2.服务器装好系统之后，更新系统 (耗时操作,可选择执行)&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;yum -y update&lt;/code&gt; 升级所有包，改变软件设置和系统设置 …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">nick</dc:creator><pubDate>Thu, 28 Jul 2016 14:57:00 +0200</pubDate><guid isPermaLink="false">tag:blog.lonelylty.com,2016-07-28:/articles/2016/07/28/dontnet-web-server-configuration-in-linux/</guid><category>linux</category></item><item><title>正则速查</title><link>http://blog.lonelylty.com/articles/2016/06/12/regex/</link><description>&lt;h5&gt;常用元字符&lt;/h5&gt;
+&lt;p&gt;&lt;code&gt;yum -y update&lt;/code&gt; 升级所有包，改变软件设置和系统设置 …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">nick</dc:creator><pubDate>Thu, 28 Jul 2016 14:57:00 +0200</pubDate><guid isPermaLink="false">tag:blog.lonelylty.com,2016-07-28:/articles/2016/07/28/dontnet-web-server-configuration-in-linux/</guid><category>linux</category></item><item><title>正则速查</title><link>https://blog.lonelylty.com/articles/2016/06/12/regex/</link><description>&lt;h5&gt;常用元字符&lt;/h5&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -58,7 +58,7 @@
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;\&lt;/td&gt;
-&lt;td&gt;对下一个字符转义。比如$是个特殊    的字符 …&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">nick</dc:creator><pubDate>Sun, 12 Jun 2016 09:57:00 +0200</pubDate><guid isPermaLink="false">tag:blog.lonelylty.com,2016-06-12:/articles/2016/06/12/regex/</guid><category>regex</category></item><item><title>Markdown 11种基本语法</title><link>http://blog.lonelylty.com/articles/2016/05/31/markdown/</link><description>&lt;h5&gt;1. 标题设置（让字体变大，和word的标题意思一样）&lt;/h5&gt;
+&lt;td&gt;对下一个字符转义。比如$是个特殊    的字符 …&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">nick</dc:creator><pubDate>Sun, 12 Jun 2016 09:57:00 +0200</pubDate><guid isPermaLink="false">tag:blog.lonelylty.com,2016-06-12:/articles/2016/06/12/regex/</guid><category>regex</category></item><item><title>Markdown 11种基本语法</title><link>https://blog.lonelylty.com/articles/2016/05/31/markdown/</link><description>&lt;h5&gt;1. 标题设置（让字体变大，和word的标题意思一样）&lt;/h5&gt;
 &lt;p&gt;在Markdown当中设置标题，有两种方式：
 第一种：通过在文字下方添加“=”和“-”，他们分别表示一级标题和二级标题。
 第二种：在文字开头加上 “#”，通过“#”数量表示几级标题。（一共只有1~6级标题，1级标题字体最大）&lt;/p&gt;

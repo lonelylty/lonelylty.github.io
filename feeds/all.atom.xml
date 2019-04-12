@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>醍醐灌顶</title><link href="http://blog.lonelylty.com/" rel="alternate"></link><link href="http://blog.lonelylty.com/feeds/all.atom.xml" rel="self"></link><id>http://blog.lonelylty.com/</id><updated>2017-01-01T09:57:00+01:00</updated><entry><title>在2016年学JavaScript是一种什么样的体验</title><link href="http://blog.lonelylty.com/articles/2017/01/01/how-it-feels-to-learn-javascript-in-2016/" rel="alternate"></link><published>2017-01-01T09:57:00+01:00</published><updated>2017-01-01T09:57:00+01:00</updated><author><name>nick</name></author><id>tag:blog.lonelylty.com,2017-01-01:/articles/2017/01/01/how-it-feels-to-learn-javascript-in-2016/</id><summary type="html">&lt;p&gt;&lt;strong&gt;嘿，我最近接到一个 Web 项目，不过老实说，我这两年没怎么接触 Web 编程，听说 Web 技术已经发生了一些变化。听说你是这里对新技术最了解的 Web 开发工程师？&lt;/strong&gt;&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>醍醐灌顶</title><link href="https://blog.lonelylty.com/" rel="alternate"></link><link href="https://blog.lonelylty.com/feeds/all.atom.xml" rel="self"></link><id>https://blog.lonelylty.com/</id><updated>2017-01-01T09:57:00+01:00</updated><entry><title>在2016年学JavaScript是一种什么样的体验</title><link href="https://blog.lonelylty.com/articles/2017/01/01/how-it-feels-to-learn-javascript-in-2016/" rel="alternate"></link><published>2017-01-01T09:57:00+01:00</published><updated>2017-01-01T09:57:00+01:00</updated><author><name>nick</name></author><id>tag:blog.lonelylty.com,2017-01-01:/articles/2017/01/01/how-it-feels-to-learn-javascript-in-2016/</id><summary type="html">&lt;p&gt;&lt;strong&gt;嘿，我最近接到一个 Web 项目，不过老实说，我这两年没怎么接触 Web 编程，听说 Web 技术已经发生了一些变化。听说你是这里对新技术最了解的 Web 开发工程师？&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;准确地说，我是一名「前端工程师」。不过你算是找对人了。我对今年的技术别提多熟了，前端可视化 …&lt;/em&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;strong&gt;嘿，我最近接到一个 Web 项目，不过老实说，我这两年没怎么接触 Web 编程，听说 Web 技术已经发生了一些变化。听说你是这里对新技术最了解的 Web 开发工程师？&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;准确地说，我是一名「前端工程师」。不过你算是找对人了。我对今年的技术别提多熟了，前端可视化、音乐播放器、能踢足球的无人机，你尽管问吧。我刚去 JS 大会和 React 大会逛了一圈，没有什么新技术是我不知道的。&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;厉害。是这样的，我要开发一个网页，用来展示用户的最新动态。我想我应该通过后端接口获取数据，然后用一个 table 来展示数据，用户可以对数据进行排序。如果服务器上的数据变化了，我还需要更新这个 table。我的思路是用 jQuery 来做。&lt;/strong&gt;&lt;/p&gt;
@@ -172,7 +172,7 @@
 &lt;div class="div-border-top-blue"&gt;最后一句「听说过 Python 3 吗？」是讽刺 Python 3 发布已经 8 年了，Python 社区却依然在使用 Python 2.7。而 JS 社区正好相反，把还没有实现的语言特性都用到生成环境中了！&lt;/div&gt;
 
 &lt;p&gt;&lt;br/&gt;
-&lt;a href="https://hackernoon.com/how-it-feels-to-learn-javascript-in-2016-d3a717dd577f#.7xu075vbl" target="_blank"&gt;原文出处&lt;/a&gt;&lt;/p&gt;</content><category term="javascript"></category></entry><entry><title>网站架构演进</title><link href="http://blog.lonelylty.com/articles/2016/10/07/web-architecture-evolution/" rel="alternate"></link><published>2016-10-07T09:57:00+02:00</published><updated>2016-10-07T09:57:00+02:00</updated><author><name>nick</name></author><id>tag:blog.lonelylty.com,2016-10-07:/articles/2016/10/07/web-architecture-evolution/</id><summary type="html">&lt;p&gt;网站架构的演进不外乎两个原因：&lt;/p&gt;
+&lt;a href="https://hackernoon.com/how-it-feels-to-learn-javascript-in-2016-d3a717dd577f#.7xu075vbl" target="_blank"&gt;原文出处&lt;/a&gt;&lt;/p&gt;</content><category term="javascript"></category></entry><entry><title>网站架构演进</title><link href="https://blog.lonelylty.com/articles/2016/10/07/web-architecture-evolution/" rel="alternate"></link><published>2016-10-07T09:57:00+02:00</published><updated>2016-10-07T09:57:00+02:00</updated><author><name>nick</name></author><id>tag:blog.lonelylty.com,2016-10-07:/articles/2016/10/07/web-architecture-evolution/</id><summary type="html">&lt;p&gt;网站架构的演进不外乎两个原因：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;用户越来越多，意味着并发要求越来越高&lt;/li&gt;
 &lt;li&gt;数据越来越多，意味着存储挑战越来越大&lt;/li&gt;
@@ -226,7 +226,7 @@
 &lt;p&gt;&lt;img alt="缓存" src="/images/web_arch_cached.png"&gt;&lt;/p&gt;
 &lt;h4&gt;总结&lt;/h4&gt;
 &lt;hr&gt;
-&lt;p&gt;看起来很简单，很自然的演进，都是 IT 技术人员数十年努力的结果，绝不简单，绝不容易。如果和研发的开会，你要是说，不是很简单吗，加个分布式数据库不就可以解决问题么？我敢保证程序员们会在内心鄙视你，如果你不是发工资的那个人，鄙视还可能溢于言表。&lt;/p&gt;</content><category term="architecture"></category></entry><entry><title>.NET in Linux Web 服务器配置</title><link href="http://blog.lonelylty.com/articles/2016/07/28/dontnet-web-server-configuration-in-linux/" rel="alternate"></link><published>2016-07-28T14:57:00+02:00</published><updated>2016-07-28T14:57:00+02:00</updated><author><name>nick</name></author><id>tag:blog.lonelylty.com,2016-07-28:/articles/2016/07/28/dontnet-web-server-configuration-in-linux/</id><summary type="html">&lt;blockquote&gt;
+&lt;p&gt;看起来很简单，很自然的演进，都是 IT 技术人员数十年努力的结果，绝不简单，绝不容易。如果和研发的开会，你要是说，不是很简单吗，加个分布式数据库不就可以解决问题么？我敢保证程序员们会在内心鄙视你，如果你不是发工资的那个人，鄙视还可能溢于言表。&lt;/p&gt;</content><category term="architecture"></category></entry><entry><title>.NET in Linux Web 服务器配置</title><link href="https://blog.lonelylty.com/articles/2016/07/28/dontnet-web-server-configuration-in-linux/" rel="alternate"></link><published>2016-07-28T14:57:00+02:00</published><updated>2016-07-28T14:57:00+02:00</updated><author><name>nick</name></author><id>tag:blog.lonelylty.com,2016-07-28:/articles/2016/07/28/dontnet-web-server-configuration-in-linux/</id><summary type="html">&lt;blockquote&gt;
 &lt;h4&gt;安装linux&lt;/h4&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;首先我们要做的就是安装linux，其发行版redhat,ubuntu,centos等等都可以，我选择了centos.&lt;/p&gt;
@@ -372,7 +372,7 @@ systemctl enable jexus.service
 &lt;blockquote&gt;
 &lt;h4&gt;结语&lt;/h4&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;最后根据不同的业务，选择合适的数据库,whatever you want! 在这里给出linux上安装mysql&lt;a href="http://www.runoob.com/linux/mysql-install-setup.html" target="_blank"&gt;教程地址&lt;/a&gt;：如果是个人站点，完全可以装在同一台服务器，如果用户访问量较大，建议还是单独弄一台服务器跑数据库&lt;/p&gt;</content><category term="linux"></category></entry><entry><title>正则速查</title><link href="http://blog.lonelylty.com/articles/2016/06/12/regex/" rel="alternate"></link><published>2016-06-12T09:57:00+02:00</published><updated>2016-06-12T09:57:00+02:00</updated><author><name>nick</name></author><id>tag:blog.lonelylty.com,2016-06-12:/articles/2016/06/12/regex/</id><summary type="html">&lt;h5&gt;常用元字符&lt;/h5&gt;
+&lt;p&gt;最后根据不同的业务，选择合适的数据库,whatever you want! 在这里给出linux上安装mysql&lt;a href="http://www.runoob.com/linux/mysql-install-setup.html" target="_blank"&gt;教程地址&lt;/a&gt;：如果是个人站点，完全可以装在同一台服务器，如果用户访问量较大，建议还是单独弄一台服务器跑数据库&lt;/p&gt;</content><category term="linux"></category></entry><entry><title>正则速查</title><link href="https://blog.lonelylty.com/articles/2016/06/12/regex/" rel="alternate"></link><published>2016-06-12T09:57:00+02:00</published><updated>2016-06-12T09:57:00+02:00</updated><author><name>nick</name></author><id>tag:blog.lonelylty.com,2016-06-12:/articles/2016/06/12/regex/</id><summary type="html">&lt;h5&gt;常用元字符&lt;/h5&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -671,7 +671,7 @@ systemctl enable jexus.service
     &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="nx"&gt;_reg&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
 &lt;span class="p"&gt;})(&lt;/span&gt;&lt;span class="nb"&gt;document&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="nb"&gt;window&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;jQuery&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
 &lt;span class="nb"&gt;window&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;regex&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nx"&gt;regex&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;</content><category term="regex"></category></entry><entry><title>Markdown 11种基本语法</title><link href="http://blog.lonelylty.com/articles/2016/05/31/markdown/" rel="alternate"></link><published>2016-05-31T16:57:00+02:00</published><updated>2016-05-31T16:57:00+02:00</updated><author><name>nick</name></author><id>tag:blog.lonelylty.com,2016-05-31:/articles/2016/05/31/markdown/</id><summary type="html">&lt;h5&gt;1. 标题设置（让字体变大，和word的标题意思一样）&lt;/h5&gt;
+&lt;/pre&gt;&lt;/div&gt;</content><category term="regex"></category></entry><entry><title>Markdown 11种基本语法</title><link href="https://blog.lonelylty.com/articles/2016/05/31/markdown/" rel="alternate"></link><published>2016-05-31T16:57:00+02:00</published><updated>2016-05-31T16:57:00+02:00</updated><author><name>nick</name></author><id>tag:blog.lonelylty.com,2016-05-31:/articles/2016/05/31/markdown/</id><summary type="html">&lt;h5&gt;1. 标题设置（让字体变大，和word的标题意思一样）&lt;/h5&gt;
 &lt;p&gt;在Markdown当中设置标题，有两种方式：
 第一种：通过在文字下方添加“=”和“-”，他们分别表示一级标题和二级标题。
 第二种：在文字开头加上 “#”，通过“#”数量表示几级标题。（一共只有1~6级标题，1级标题字体最大）&lt;/p&gt;
